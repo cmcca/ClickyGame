@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TopBit from './components/TopBit';
 import Wrapper from './components/Wrapper';
 import Card from './components/Card';
 
@@ -28,6 +29,8 @@ class App extends Component {
   } */
   render() {
     return (
+<div>
+      <TopBit />
       <Wrapper>
         
         
@@ -44,6 +47,7 @@ class App extends Component {
           <Card />
         
       </Wrapper>
+</div>
     )
   }
 }
